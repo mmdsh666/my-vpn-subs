@@ -1,0 +1,25 @@
+---
+pid: 7876
+cwd: "C:\Users\satan\Desktop\sub"
+command: "python -c \"import requests; r=requests.get('https://t.me/s/FarahVPN', headers={'User-Agent':'Mozilla/5.0'}); print(r.status_code); print(r.text[:8000])\""
+started_at: 2026-06-16T13:25:42.758Z
+running_for_ms: 6375006  
+---
+Python install manager was successfully updated to 26.2.
+
+Indexes can now be signed to provide tamper detection. When an index signature
+is found to be invalid, the operation will be aborted without modifying your system.
+See https://docs.python.org/using/windows#index-signatures for more information.
+
+********************************************************************************
+The signature for https://www.python.org/ftp/python/index-windows.json was successfully verified.
+Installing Python 3.14.6.
+Downloading: ...................................................................
+Extracting: ....................................................................
+To see all available commands, run 'py help'
+********************************************************************************
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import requests; r=requests.get('https://t.me/s/FarahVPN', headers={'User-Agent':'Mozilla/5.0'}); print(r.status_code); print(r.text[:8000])
+    ^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'requests'
